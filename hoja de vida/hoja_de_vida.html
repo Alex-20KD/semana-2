@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Vida Personal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #08a8a0;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        h1, h2 {
+            text-align: center;
+        }
+        
+        .personal-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .personal-info img {
+            width: 150px; /* Tamaño más pequeño */
+            height: 150px; /* Tamaño más pequeño */
+            border-radius: 50%;
+        }
+        
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .section ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ccc;
+        }
+        
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centrar la tabla */
+        }
+        
+        table, th, td {
+            border: 1px solid #7700ff;
+        }
+        
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #fffefe;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Datos Personales -->
+        <div class="section" id="datos-personales">
+            <h1>GONZALO ALEXANDER DELGADO MACIAS</h1>
+            <div class="personal-info">
+                <img src="imagenes/yo.jpg" alt="Foto de Perfil" class="foto-perfil">
+            </div>
+            <p><strong>Email:</strong> gonzaloyzam.2018@gmail.com</p>
+            <p><strong>Teléfono:</strong> (+593)98 223 7448</p>
+        </div>
+
+        <!-- Estudios Realizados -->
+        <div class="section" id="estudios">
+            <h2>Estudios Realizados</h2>
+            <ul>
+                <li>Titulo de bachiller - UE TERESA DE CALCUTA</li>
+                <li>Titulo de ingeniero en software - ULEAM</li>
+            </ul>
+        </div>
+
+        <!-- Experiencia Laboral -->
+        <div class="section" id="experiencia">
+            <h2>4 años de experiencia</h2>
+            <ul>
+                <li>
+                    <strong>From Software</strong> - Encargado del software (2020-2022)
+                    <p>Estar a cargo del proyecto de Elden Ring</p>
+                </li>
+                <li>
+                    <strong>Maincrosoft</strong> - Encargado de servidores (2023 - 2024)
+                    <p>Mantener los servidores de Maincrosoft y resguardar los datos.</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Capacitaciones -->
+        <div class="section" id="capacitaciones">
+            <h2>Capacitaciones</h2>
+            <ul>
+                <li>Ciberseguridad (2019)</li>
+                <li>Videojuegos (2015)</li>
+                <li>POO</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>C++</li>
+                <li>Redes computacionales</li>
+                <li>Administracion de servidores</li>
+            </ul>
+        </div>
+
+        <!-- Referencias Personales -->
+        <div class="section" id="referencias">
+            <h2>Referencias Personales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Cargo/Profesión</th>
+                        <th>Teléfono</th>
+                        <th>Correo Electrónico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kanye West</td>
+                        <td>Gerente de Proyecto</td>
+                        <td>(123) 456-7891</td>
+                        <td>juan.perez@correo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Travis Scott</td>
+                        <td>Consultora</td>
+                        <td>(123) 456-7892</td>
+                        <td>maria.lopez@correo.com</td>
+                    </tr>
+                    <tr>
+                        <td>Lil Peep</td>
+                        <td>Analista</td>
+                        <td>(123) 456-7893</td>
+                        <td>pedro.gomez@correo.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
